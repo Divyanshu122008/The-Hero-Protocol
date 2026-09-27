@@ -1,16 +1,63 @@
-# React + Vite
+The Hero Protocol
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cinematic, space-inspired event website built with React and Vite. The experience introduces the mission, showcases featured heroes and event highlights, and guides visitors through the event timeline and registration section.
 
-Currently, two official plugins are available:
+- **Live website:** [the-hero-protocol.vercel.app](https://the-hero-protocol.vercel.app)
+- **GitHub repository:** [Divyanshu122008/The-Hero-Protocol](https://github.com/Divyanshu122008/The-Hero-Protocol)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Hero landing section with a mission-focused call to action
+- Space-themed visual backgrounds and animation assets
+- Sections for choosing a hero, mission briefing, event highlights, timeline, and registration
+- Responsive React interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built with
 
-## Expanding the ESLint configuration
+- React 19
+- Vite 8
+- Tailwind CSS 4
+- Three.js with React Three Fiber and Drei
+- Lucide React icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run locally
+
+You’ll need [Node.js](https://nodejs.org/) installed.
+
+```bash
+git clone https://github.com/Divyanshu122008/The-Hero-Protocol.git
+cd The-Hero-Protocol
+npm install
+npm run dev
+```
+
+Open the local URL printed in the terminal (usually `http://localhost:5173`).
+
+## Available commands
+
+```bash
+npm run dev      # Start the local development server
+npm run build    # Create a production build in dist/
+npm run preview  # Preview the production build locally
+npm run lint     # Run ESLint
+```
+
+## Deployment
+
+The site is deployed on [Vercel](https://vercel.com/) and served at [https://the-hero-protocol.vercel.app](https://the-hero-protocol.vercel.app). The project is connected to GitHub, so pushing changes to the main branch can trigger a new deployment.
+
+## Project structure
+
+```text
+public/           Static public assets
+src/
+  components/     Reusable interface and visual components
+  data/           Hero content
+  hooks/          Reusable React hooks
+  sections/       Main page sections
+  assets/         Images and media imported by the app
+```
+
+## License
+
+No license has been specified for this repository. Contact the project owner before reusing or redistributing its code or assets.
